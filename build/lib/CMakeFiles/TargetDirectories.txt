@@ -1,0 +1,12 @@
+/home/chry/workspace/projects/juice/build/lib/CMakeFiles/juice.dir
+/home/chry/workspace/projects/juice/build/lib/CMakeFiles/edit_cache.dir
+/home/chry/workspace/projects/juice/build/lib/CMakeFiles/rebuild_cache.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/glad/CMakeFiles/glad.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/glad/CMakeFiles/edit_cache.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/glad/CMakeFiles/rebuild_cache.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/spdlog/CMakeFiles/spdlog.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/spdlog/CMakeFiles/edit_cache.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/spdlog/CMakeFiles/rebuild_cache.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/stb/CMakeFiles/stb.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/stb/CMakeFiles/edit_cache.dir
+/home/chry/workspace/projects/juice/build/lib/vendor/stb/CMakeFiles/rebuild_cache.dir

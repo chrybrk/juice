@@ -1,0 +1,26 @@
+# ninja log v5
+38	5231	1691763990828354180	CMakeFiles/juice.dir/juice/core/app.cpp.o	a4e74b730abd34df
+4274	9440	1691763995038354004	CMakeFiles/juice.dir/juice/layer/layer_stack.cpp.o	61511932b46a268e
+18250	29477	1691764015074353166	vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o	9578911c180c4553
+29479	38008	1691764023605352809	vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o	1936d84ca85964af
+23782	31585	1691764017182353078	vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o	1ff9045313c2a415
+60667	60756	1691764046352351858	libjuice.a	7bc43d49b83156b6
+5231	5930	1691763991528354151	vendor/glad/CMakeFiles/glad.dir/glad/src/glad.c.o	70936df9d817311f
+38010	57981	1691764043576351974	vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o	9ac1aa262330176e
+57981	58144	1691764043738351967	vendor/spdlog/libspdlog.a	525c9f3be74c6c77
+43	4595	1691763990193354207	CMakeFiles/juice.dir/juice/layer/layer.cpp.o	89663a574a17ef82
+5930	6132	1691763991726354142	vendor/glad/libglad.a	86d2bcc1d5692717
+6132	50615	1691764036207352282	vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o	e63a88b830af52b6
+4596	23780	1691764009376353404	CMakeFiles/juice.dir/juice/window/window.cpp.o	eaf7661deded0f8e
+38	4274	1691763989866354220	CMakeFiles/juice.dir/juice/core/timer.cpp.o	2d546ce29b2a253a
+60580	60667	1691764046263351862	vendor/stb/libstb.a	aa57bb8a0d305d2c
+31587	38320	1691764023918352796	vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o	b87ec34f71d5dcb3
+38322	60580	1691764046177351865	vendor/stb/CMakeFiles/stb.dir/stb_image.cpp.o	f651bf3f8b555586
+9443	18249	1691764003846353636	vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o	6e8e38e8e06f9fe4
+66	3820	1691770147977096670	CMakeFiles/juice.dir/juice/core/timer.cpp.o	2d546ce29b2a253a
+65	4136	1691770148294096657	CMakeFiles/juice.dir/juice/core/log.cpp.o	67e4741266dda341
+62	4956	1691770149114096623	CMakeFiles/juice.dir/juice/core/app.cpp.o	a4e74b730abd34df
+3820	7740	1691770151898096507	CMakeFiles/juice.dir/juice/layer/layer.cpp.o	89663a574a17ef82
+4136	8261	1691770152418096485	CMakeFiles/juice.dir/juice/layer/layer_stack.cpp.o	61511932b46a268e
+4958	15536	1691770159692096181	CMakeFiles/juice.dir/juice/window/window.cpp.o	eaf7661deded0f8e
+15536	15616	1691770159771096177	libjuice.a	438497ee95e1fb04
