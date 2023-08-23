@@ -1,140 +1,140 @@
 [
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/camera/orthographic_camera.cpp.o -c /home/chry/workspace/projects/juice/source/juice/camera/orthographic_camera.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/camera/orthographic_camera.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/camera/orthographic_camera.cpp.o -c /home/chry/workspace/git/juice/source/juice/camera/orthographic_camera.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/camera/orthographic_camera.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/camera/orthographic_camera.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/core/app.cpp.o -c /home/chry/workspace/projects/juice/source/juice/core/app.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/core/app.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/core/app.cpp.o -c /home/chry/workspace/git/juice/source/juice/core/app.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/core/app.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/core/app.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/core/log.cpp.o -c /home/chry/workspace/projects/juice/source/juice/core/log.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/core/log.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/core/log.cpp.o -c /home/chry/workspace/git/juice/source/juice/core/log.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/core/log.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/core/log.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/core/timer.cpp.o -c /home/chry/workspace/projects/juice/source/juice/core/timer.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/core/timer.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/core/timer.cpp.o -c /home/chry/workspace/git/juice/source/juice/core/timer.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/core/timer.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/core/timer.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/graphic/line.cpp.o -c /home/chry/workspace/projects/juice/source/juice/graphic/line.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/graphic/line.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/graphic/line.cpp.o -c /home/chry/workspace/git/juice/source/juice/graphic/line.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/graphic/line.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/graphic/line.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/graphic/pent.cpp.o -c /home/chry/workspace/projects/juice/source/juice/graphic/pent.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/graphic/pent.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/graphic/pent.cpp.o -c /home/chry/workspace/git/juice/source/juice/graphic/pent.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/graphic/pent.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/graphic/pent.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/graphic/rect.cpp.o -c /home/chry/workspace/projects/juice/source/juice/graphic/rect.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/graphic/rect.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/graphic/rect.cpp.o -c /home/chry/workspace/git/juice/source/juice/graphic/rect.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/graphic/rect.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/graphic/rect.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/layer/layer.cpp.o -c /home/chry/workspace/projects/juice/source/juice/layer/layer.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/layer/layer.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/layer/layer.cpp.o -c /home/chry/workspace/git/juice/source/juice/layer/layer.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/layer/layer.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/layer/layer.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/layer/layer_stack.cpp.o -c /home/chry/workspace/projects/juice/source/juice/layer/layer_stack.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/layer/layer_stack.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/layer/layer_stack.cpp.o -c /home/chry/workspace/git/juice/source/juice/layer/layer_stack.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/layer/layer_stack.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/layer/layer_stack.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/renderer/graphics.cpp.o -c /home/chry/workspace/projects/juice/source/juice/renderer/graphics.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/renderer/graphics.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/renderer/graphics.cpp.o -c /home/chry/workspace/git/juice/source/juice/renderer/graphics.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/renderer/graphics.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/renderer/graphics.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/renderer/renderer.cpp.o -c /home/chry/workspace/projects/juice/source/juice/renderer/renderer.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/renderer/renderer.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/renderer/renderer.cpp.o -c /home/chry/workspace/git/juice/source/juice/renderer/renderer.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/renderer/renderer.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/renderer/renderer.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/shader/shader.cpp.o -c /home/chry/workspace/projects/juice/source/juice/shader/shader.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/shader/shader.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/shader/shader.cpp.o -c /home/chry/workspace/git/juice/source/juice/shader/shader.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/shader/shader.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/shader/shader.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/window/window.cpp.o -c /home/chry/workspace/projects/juice/source/juice/window/window.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/juice/window/window.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/CMakeFiles/juice.dir/juice/window/window.cpp.o -c /home/chry/workspace/git/juice/source/juice/window/window.cpp",
+  "file": "/home/chry/workspace/git/juice/source/juice/window/window.cpp",
   "output": "source/CMakeFiles/juice.dir/juice/window/window.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/cc -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb -I/home/chry/workspace/projects/juice/source/vendor/glad/. -O3 -DNDEBUG -o source/vendor/glad/CMakeFiles/glad.dir/glad/src/glad.c.o -c /home/chry/workspace/projects/juice/source/vendor/glad/glad/src/glad.c",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/glad/glad/src/glad.c",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/cc -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb -I/home/chry/workspace/git/juice/source/vendor/glad/. -O3 -DNDEBUG -o source/vendor/glad/CMakeFiles/glad.dir/glad/src/glad.c.o -c /home/chry/workspace/git/juice/source/vendor/glad/glad/src/glad.c",
+  "file": "/home/chry/workspace/git/juice/source/vendor/glad/glad/src/glad.c",
   "output": "source/vendor/glad/CMakeFiles/glad.dir/glad/src/glad.c.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/chry/workspace/projects/juice/source/vendor/spdlog/src/spdlog.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/spdlog/src/spdlog.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o -c /home/chry/workspace/git/juice/source/vendor/spdlog/src/spdlog.cpp",
+  "file": "/home/chry/workspace/git/juice/source/vendor/spdlog/src/spdlog.cpp",
   "output": "source/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/chry/workspace/projects/juice/source/vendor/spdlog/src/stdout_sinks.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/spdlog/src/stdout_sinks.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o -c /home/chry/workspace/git/juice/source/vendor/spdlog/src/stdout_sinks.cpp",
+  "file": "/home/chry/workspace/git/juice/source/vendor/spdlog/src/stdout_sinks.cpp",
   "output": "source/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/chry/workspace/projects/juice/source/vendor/spdlog/src/color_sinks.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/spdlog/src/color_sinks.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o -c /home/chry/workspace/git/juice/source/vendor/spdlog/src/color_sinks.cpp",
+  "file": "/home/chry/workspace/git/juice/source/vendor/spdlog/src/color_sinks.cpp",
   "output": "source/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/chry/workspace/projects/juice/source/vendor/spdlog/src/file_sinks.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/spdlog/src/file_sinks.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o -c /home/chry/workspace/git/juice/source/vendor/spdlog/src/file_sinks.cpp",
+  "file": "/home/chry/workspace/git/juice/source/vendor/spdlog/src/file_sinks.cpp",
   "output": "source/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/chry/workspace/projects/juice/source/vendor/spdlog/src/async.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/spdlog/src/async.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o -c /home/chry/workspace/git/juice/source/vendor/spdlog/src/async.cpp",
+  "file": "/home/chry/workspace/git/juice/source/vendor/spdlog/src/async.cpp",
   "output": "source/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/chry/workspace/projects/juice/source/vendor/spdlog/src/cfg.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/spdlog/src/cfg.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o -c /home/chry/workspace/git/juice/source/vendor/spdlog/src/cfg.cpp",
+  "file": "/home/chry/workspace/git/juice/source/vendor/spdlog/src/cfg.cpp",
   "output": "source/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o -c /home/chry/workspace/projects/juice/source/vendor/spdlog/src/fmt.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/spdlog/src/fmt.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17 -o source/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o -c /home/chry/workspace/git/juice/source/vendor/spdlog/src/fmt.cpp",
+  "file": "/home/chry/workspace/git/juice/source/vendor/spdlog/src/fmt.cpp",
   "output": "source/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb -I/home/chry/workspace/projects/juice/source/vendor/stb/.  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/vendor/stb/CMakeFiles/stb.dir/stb_image.cpp.o -c /home/chry/workspace/projects/juice/source/vendor/stb/stb_image.cpp",
-  "file": "/home/chry/workspace/projects/juice/source/vendor/stb/stb_image.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb -I/home/chry/workspace/git/juice/source/vendor/stb/.  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o source/vendor/stb/CMakeFiles/stb.dir/stb_image.cpp.o -c /home/chry/workspace/git/juice/source/vendor/stb/stb_image.cpp",
+  "file": "/home/chry/workspace/git/juice/source/vendor/stb/stb_image.cpp",
   "output": "source/vendor/stb/CMakeFiles/stb.dir/stb_image.cpp.o"
 },
 {
-  "directory": "/home/chry/workspace/projects/juice/build/juice",
-  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/sandbox -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o -c /home/chry/workspace/projects/juice/sandbox/src/main.cpp",
-  "file": "/home/chry/workspace/projects/juice/sandbox/src/main.cpp",
+  "directory": "/home/chry/workspace/git/juice/build/juice",
+  "command": "/usr/bin/c++ -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/sandbox -I/home/chry/workspace/git/juice/source/vendor/spdlog/include  -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17 -o sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o -c /home/chry/workspace/git/juice/sandbox/src/main.cpp",
+  "file": "/home/chry/workspace/git/juice/sandbox/src/main.cpp",
   "output": "sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o"
 }
 ]

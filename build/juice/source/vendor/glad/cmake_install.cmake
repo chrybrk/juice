@@ -1,4 +1,4 @@
-# Install script for directory: /home/chry/workspace/projects/juice/source/vendor/glad
+# Install script for directory: /home/chry/workspace/git/juice/source/vendor/glad
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)

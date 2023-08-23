@@ -39,13 +39,13 @@ include CMakeFiles/rules.ninja
 #############################################
 # Logical path to working directory; prefix for absolute paths.
 
-cmake_ninja_workdir = /home/chry/workspace/projects/juice/build/juice/
+cmake_ninja_workdir = /home/chry/workspace/git/juice/build/juice/
 
 #############################################
 # Utility command for edit_cache
 
 build CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice && /usr/bin/ccmake -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice && /usr/bin/ccmake -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -57,7 +57,7 @@ build edit_cache: phony CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -66,7 +66,7 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/chry/workspace/projects/juice/CMakeLists.txt
+# /home/chry/workspace/git/juice/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -78,109 +78,135 @@ build rebuild_cache: phony CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_juice: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_spdlog cmake_object_order_depends_target_stb
 
-build source/CMakeFiles/juice.dir/juice/camera/orthographic_camera.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/camera/orthographic_camera.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/camera/orthographic_camera.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/camera/orthographic_camera.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/camera/orthographic_camera.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/camera
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/core/app.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/core/app.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/core/app.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/core/app.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/core/app.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/core
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/core/log.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/core/log.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/core/log.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/core/log.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/core/log.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/core
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/core/timer.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/core/timer.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/core/timer.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/core/timer.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/core/timer.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/core
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/graphic/line.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/graphic/line.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/graphic/line.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/graphic/line.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/graphic/line.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/graphic
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/graphic/pent.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/graphic/pent.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/graphic/pent.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/graphic/pent.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/graphic/pent.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/graphic
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/graphic/rect.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/graphic/rect.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/graphic/rect.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/graphic/rect.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/graphic/rect.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/graphic
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/layer/layer.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/layer/layer.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/layer/layer.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/layer/layer.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/layer/layer.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/layer
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/layer/layer_stack.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/layer/layer_stack.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/layer/layer_stack.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/layer/layer_stack.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/layer/layer_stack.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/layer
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/renderer/graphics.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/renderer/graphics.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/renderer/graphics.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/renderer/graphics.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/renderer/graphics.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/renderer
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/renderer/renderer.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/renderer/renderer.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/renderer/renderer.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/renderer/renderer.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/renderer/renderer.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/renderer
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/shader/shader.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/shader/shader.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/shader/shader.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/shader/shader.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/shader/shader.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/shader
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
-build source/CMakeFiles/juice.dir/juice/window/window.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/projects/juice/source/juice/window/window.cpp || cmake_object_order_depends_target_juice
+build source/CMakeFiles/juice.dir/juice/window/window.cpp.o: CXX_COMPILER__juice_unscanned_Release /home/chry/workspace/git/juice/source/juice/window/window.cpp || cmake_object_order_depends_target_juice
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/CMakeFiles/juice.dir/juice/window/window.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/CMakeFiles/juice.dir
   OBJECT_FILE_DIR = source/CMakeFiles/juice.dir/juice/window
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
+  TARGET_PDB = source/libjuice.pdb
 
 
 # =============================================================================
@@ -195,15 +221,16 @@ build source/libjuice.a: CXX_STATIC_LIBRARY_LINKER__juice_Release source/CMakeFi
   OBJECT_DIR = source/CMakeFiles/juice.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = source/CMakeFiles/juice.dir/juice.pdb
   TARGET_FILE = source/libjuice.a
-  TARGET_PDB = juice.a.dbg
+  TARGET_PDB = source/libjuice.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build source/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/source && /usr/bin/ccmake -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/source && /usr/bin/ccmake -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -215,7 +242,7 @@ build source/edit_cache: phony source/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build source/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/source && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/source && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -224,7 +251,7 @@ build source/rebuild_cache: phony source/CMakeFiles/rebuild_cache.util
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/chry/workspace/projects/juice/source/CMakeLists.txt
+# /home/chry/workspace/git/juice/source/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -236,13 +263,15 @@ build source/rebuild_cache: phony source/CMakeFiles/rebuild_cache.util
 
 build cmake_object_order_depends_target_glad: phony || source/vendor/glad/CMakeFiles/glad.dir
 
-build source/vendor/glad/CMakeFiles/glad.dir/glad/src/glad.c.o: C_COMPILER__glad_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/glad/glad/src/glad.c || cmake_object_order_depends_target_glad
+build source/vendor/glad/CMakeFiles/glad.dir/glad/src/glad.c.o: C_COMPILER__glad_unscanned_Release /home/chry/workspace/git/juice/source/vendor/glad/glad/src/glad.c || cmake_object_order_depends_target_glad
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/glad/CMakeFiles/glad.dir/glad/src/glad.c.o.d
   FLAGS = -O3 -DNDEBUG
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb -I/home/chry/workspace/projects/juice/source/vendor/glad/.
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb -I/home/chry/workspace/git/juice/source/vendor/glad/.
   OBJECT_DIR = source/vendor/glad/CMakeFiles/glad.dir
   OBJECT_FILE_DIR = source/vendor/glad/CMakeFiles/glad.dir/glad/src
+  TARGET_COMPILE_PDB = source/vendor/glad/CMakeFiles/glad.dir/glad.pdb
+  TARGET_PDB = source/vendor/glad/libglad.pdb
 
 
 # =============================================================================
@@ -257,15 +286,16 @@ build source/vendor/glad/libglad.a: C_STATIC_LIBRARY_LINKER__glad_Release source
   OBJECT_DIR = source/vendor/glad/CMakeFiles/glad.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = source/vendor/glad/CMakeFiles/glad.dir/glad.pdb
   TARGET_FILE = source/vendor/glad/libglad.a
-  TARGET_PDB = glad.a.dbg
+  TARGET_PDB = source/vendor/glad/libglad.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build source/vendor/glad/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/source/vendor/glad && /usr/bin/ccmake -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/source/vendor/glad && /usr/bin/ccmake -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -277,7 +307,7 @@ build source/vendor/glad/edit_cache: phony source/vendor/glad/CMakeFiles/edit_ca
 # Utility command for rebuild_cache
 
 build source/vendor/glad/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/source/vendor/glad && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/source/vendor/glad && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -286,7 +316,7 @@ build source/vendor/glad/rebuild_cache: phony source/vendor/glad/CMakeFiles/rebu
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/chry/workspace/projects/juice/source/CMakeLists.txt
+# /home/chry/workspace/git/juice/source/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -298,61 +328,75 @@ build source/vendor/glad/rebuild_cache: phony source/vendor/glad/CMakeFiles/rebu
 
 build cmake_object_order_depends_target_spdlog: phony || source/vendor/spdlog/CMakeFiles/spdlog.dir
 
-build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/spdlog/src/spdlog.cpp || cmake_object_order_depends_target_spdlog
+build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/git/juice/source/vendor/spdlog/src/spdlog.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/spdlog/CMakeFiles/spdlog.dir/src/spdlog.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir/src
+  TARGET_COMPILE_PDB = source/vendor/spdlog/CMakeFiles/spdlog.dir/spdlog.pdb
+  TARGET_PDB = source/vendor/spdlog/libspdlog.pdb
 
-build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/spdlog/src/stdout_sinks.cpp || cmake_object_order_depends_target_spdlog
+build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/git/juice/source/vendor/spdlog/src/stdout_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/spdlog/CMakeFiles/spdlog.dir/src/stdout_sinks.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir/src
+  TARGET_COMPILE_PDB = source/vendor/spdlog/CMakeFiles/spdlog.dir/spdlog.pdb
+  TARGET_PDB = source/vendor/spdlog/libspdlog.pdb
 
-build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/spdlog/src/color_sinks.cpp || cmake_object_order_depends_target_spdlog
+build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/git/juice/source/vendor/spdlog/src/color_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/spdlog/CMakeFiles/spdlog.dir/src/color_sinks.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir/src
+  TARGET_COMPILE_PDB = source/vendor/spdlog/CMakeFiles/spdlog.dir/spdlog.pdb
+  TARGET_PDB = source/vendor/spdlog/libspdlog.pdb
 
-build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/spdlog/src/file_sinks.cpp || cmake_object_order_depends_target_spdlog
+build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/git/juice/source/vendor/spdlog/src/file_sinks.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/spdlog/CMakeFiles/spdlog.dir/src/file_sinks.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir/src
+  TARGET_COMPILE_PDB = source/vendor/spdlog/CMakeFiles/spdlog.dir/spdlog.pdb
+  TARGET_PDB = source/vendor/spdlog/libspdlog.pdb
 
-build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/spdlog/src/async.cpp || cmake_object_order_depends_target_spdlog
+build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/git/juice/source/vendor/spdlog/src/async.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/spdlog/CMakeFiles/spdlog.dir/src/async.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir/src
+  TARGET_COMPILE_PDB = source/vendor/spdlog/CMakeFiles/spdlog.dir/spdlog.pdb
+  TARGET_PDB = source/vendor/spdlog/libspdlog.pdb
 
-build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/spdlog/src/cfg.cpp || cmake_object_order_depends_target_spdlog
+build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/git/juice/source/vendor/spdlog/src/cfg.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/spdlog/CMakeFiles/spdlog.dir/src/cfg.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir/src
+  TARGET_COMPILE_PDB = source/vendor/spdlog/CMakeFiles/spdlog.dir/spdlog.pdb
+  TARGET_PDB = source/vendor/spdlog/libspdlog.pdb
 
-build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/spdlog/src/fmt.cpp || cmake_object_order_depends_target_spdlog
+build source/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o: CXX_COMPILER__spdlog_unscanned_Release /home/chry/workspace/git/juice/source/vendor/spdlog/src/fmt.cpp || cmake_object_order_depends_target_spdlog
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/spdlog/CMakeFiles/spdlog.dir/src/fmt.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=c++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb
   OBJECT_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir
   OBJECT_FILE_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir/src
+  TARGET_COMPILE_PDB = source/vendor/spdlog/CMakeFiles/spdlog.dir/spdlog.pdb
+  TARGET_PDB = source/vendor/spdlog/libspdlog.pdb
 
 
 # =============================================================================
@@ -367,15 +411,16 @@ build source/vendor/spdlog/libspdlog.a: CXX_STATIC_LIBRARY_LINKER__spdlog_Releas
   OBJECT_DIR = source/vendor/spdlog/CMakeFiles/spdlog.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = source/vendor/spdlog/CMakeFiles/spdlog.dir/spdlog.pdb
   TARGET_FILE = source/vendor/spdlog/libspdlog.a
-  TARGET_PDB = spdlog.a.dbg
+  TARGET_PDB = source/vendor/spdlog/libspdlog.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build source/vendor/spdlog/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/source/vendor/spdlog && /usr/bin/ccmake -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/source/vendor/spdlog && /usr/bin/ccmake -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -387,7 +432,7 @@ build source/vendor/spdlog/edit_cache: phony source/vendor/spdlog/CMakeFiles/edi
 # Utility command for rebuild_cache
 
 build source/vendor/spdlog/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/source/vendor/spdlog && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/source/vendor/spdlog && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -396,7 +441,7 @@ build source/vendor/spdlog/rebuild_cache: phony source/vendor/spdlog/CMakeFiles/
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/chry/workspace/projects/juice/source/CMakeLists.txt
+# /home/chry/workspace/git/juice/source/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -408,13 +453,15 @@ build source/vendor/spdlog/rebuild_cache: phony source/vendor/spdlog/CMakeFiles/
 
 build cmake_object_order_depends_target_stb: phony || source/vendor/stb/CMakeFiles/stb.dir
 
-build source/vendor/stb/CMakeFiles/stb.dir/stb_image.cpp.o: CXX_COMPILER__stb_unscanned_Release /home/chry/workspace/projects/juice/source/vendor/stb/stb_image.cpp || cmake_object_order_depends_target_stb
+build source/vendor/stb/CMakeFiles/stb.dir/stb_image.cpp.o: CXX_COMPILER__stb_unscanned_Release /home/chry/workspace/git/juice/source/vendor/stb/stb_image.cpp || cmake_object_order_depends_target_stb
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = source/vendor/stb/CMakeFiles/stb.dir/stb_image.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/source/vendor/glad -I/home/chry/workspace/projects/juice/source/vendor/glm -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include -I/home/chry/workspace/projects/juice/source/vendor/stb -I/home/chry/workspace/projects/juice/source/vendor/stb/.
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/source/vendor/glad -I/home/chry/workspace/git/juice/source/vendor/glm -I/home/chry/workspace/git/juice/source/vendor/spdlog/include -I/home/chry/workspace/git/juice/source/vendor/stb -I/home/chry/workspace/git/juice/source/vendor/stb/.
   OBJECT_DIR = source/vendor/stb/CMakeFiles/stb.dir
   OBJECT_FILE_DIR = source/vendor/stb/CMakeFiles/stb.dir
+  TARGET_COMPILE_PDB = source/vendor/stb/CMakeFiles/stb.dir/stb.pdb
+  TARGET_PDB = source/vendor/stb/libstb.pdb
 
 
 # =============================================================================
@@ -429,15 +476,16 @@ build source/vendor/stb/libstb.a: CXX_STATIC_LIBRARY_LINKER__stb_Release source/
   OBJECT_DIR = source/vendor/stb/CMakeFiles/stb.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = source/vendor/stb/CMakeFiles/stb.dir/stb.pdb
   TARGET_FILE = source/vendor/stb/libstb.a
-  TARGET_PDB = stb.a.dbg
+  TARGET_PDB = source/vendor/stb/libstb.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build source/vendor/stb/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/source/vendor/stb && /usr/bin/ccmake -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/source/vendor/stb && /usr/bin/ccmake -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -449,7 +497,7 @@ build source/vendor/stb/edit_cache: phony source/vendor/stb/CMakeFiles/edit_cach
 # Utility command for rebuild_cache
 
 build source/vendor/stb/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/source/vendor/stb && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/source/vendor/stb && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -458,7 +506,7 @@ build source/vendor/stb/rebuild_cache: phony source/vendor/stb/CMakeFiles/rebuil
 
 # =============================================================================
 # Write statements declared in CMakeLists.txt:
-# /home/chry/workspace/projects/juice/CMakeLists.txt
+# /home/chry/workspace/git/juice/CMakeLists.txt
 # =============================================================================
 
 # =============================================================================
@@ -470,13 +518,15 @@ build source/vendor/stb/rebuild_cache: phony source/vendor/stb/CMakeFiles/rebuil
 
 build cmake_object_order_depends_target_sandbox: phony || cmake_object_order_depends_target_glad cmake_object_order_depends_target_juice cmake_object_order_depends_target_spdlog cmake_object_order_depends_target_stb
 
-build sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o: CXX_COMPILER__sandbox_unscanned_Release /home/chry/workspace/projects/juice/sandbox/src/main.cpp || cmake_object_order_depends_target_sandbox
+build sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o: CXX_COMPILER__sandbox_unscanned_Release /home/chry/workspace/git/juice/sandbox/src/main.cpp || cmake_object_order_depends_target_sandbox
   DEFINES = -DGLFW_INCLUDE_NONE -DJUICE_PLATFORM_LINUX -DSPDLOG_COMPILED_LIB -DSQ_RELEASE
   DEP_FILE = sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o.d
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG -std=gnu++17
-  INCLUDES = -I/home/chry/workspace/projects/juice/source/juice -I/home/chry/workspace/projects/juice/source/vendor -I/home/chry/workspace/projects/juice/sandbox -I/home/chry/workspace/projects/juice/source/vendor/spdlog/include
+  INCLUDES = -I/home/chry/workspace/git/juice/source/juice -I/home/chry/workspace/git/juice/source/vendor -I/home/chry/workspace/git/juice/sandbox -I/home/chry/workspace/git/juice/source/vendor/spdlog/include
   OBJECT_DIR = sandbox/CMakeFiles/sandbox.dir
   OBJECT_FILE_DIR = sandbox/CMakeFiles/sandbox.dir/src
+  TARGET_COMPILE_PDB = sandbox/CMakeFiles/sandbox.dir/
+  TARGET_PDB = sandbox/sandbox.pdb
 
 
 # =============================================================================
@@ -486,21 +536,22 @@ build sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o: CXX_COMPILER__sandbox_unsca
 #############################################
 # Link the executable sandbox/sandbox
 
-build sandbox/sandbox: CXX_EXECUTABLE_LINKER__sandbox_Release sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o | source/libjuice.a source/vendor/glad/libglad.a source/vendor/stb/libstb.a source/vendor/spdlog/libspdlog.a /home/chry/workspace/projects/juice/source/dependencies/libdl-2.33.so /usr/lib/libglfw.so || source/libjuice.a source/vendor/glad/libglad.a source/vendor/spdlog/libspdlog.a source/vendor/stb/libstb.a
+build sandbox/sandbox: CXX_EXECUTABLE_LINKER__sandbox_Release sandbox/CMakeFiles/sandbox.dir/src/main.cpp.o | source/libjuice.a source/vendor/glad/libglad.a source/vendor/stb/libstb.a source/vendor/spdlog/libspdlog.a /home/chry/workspace/git/juice/source/dependencies/libdl-2.33.so /usr/lib/libglfw.so || source/libjuice.a source/vendor/glad/libglad.a source/vendor/spdlog/libspdlog.a source/vendor/stb/libstb.a
   FLAGS = -O3 -std=c++17 -O3 -std=c++17 -O3 -DNDEBUG
-  LINK_LIBRARIES = -Wl,-rpath,/home/chry/workspace/projects/juice/source/dependencies  source/libjuice.a  source/vendor/glad/libglad.a  source/vendor/stb/libstb.a  source/vendor/spdlog/libspdlog.a  /home/chry/workspace/projects/juice/source/dependencies/libdl-2.33.so  /usr/lib/libglfw.so
+  LINK_LIBRARIES = -Wl,-rpath,/home/chry/workspace/git/juice/source/dependencies  source/libjuice.a  source/vendor/glad/libglad.a  source/vendor/stb/libstb.a  source/vendor/spdlog/libspdlog.a  /home/chry/workspace/git/juice/source/dependencies/libdl-2.33.so  /usr/lib/libglfw.so
   OBJECT_DIR = sandbox/CMakeFiles/sandbox.dir
   POST_BUILD = :
   PRE_LINK = :
+  TARGET_COMPILE_PDB = sandbox/CMakeFiles/sandbox.dir/
   TARGET_FILE = sandbox/sandbox
-  TARGET_PDB = sandbox.dbg
+  TARGET_PDB = sandbox/sandbox.pdb
 
 
 #############################################
 # Utility command for edit_cache
 
 build sandbox/CMakeFiles/edit_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/sandbox && /usr/bin/ccmake -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/sandbox && /usr/bin/ccmake -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake cache editor...
   pool = console
   restat = 1
@@ -512,7 +563,7 @@ build sandbox/edit_cache: phony sandbox/CMakeFiles/edit_cache.util
 # Utility command for rebuild_cache
 
 build sandbox/CMakeFiles/rebuild_cache.util: CUSTOM_COMMAND
-  COMMAND = cd /home/chry/workspace/projects/juice/build/juice/sandbox && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/projects/juice -B/home/chry/workspace/projects/juice/build/juice
+  COMMAND = cd /home/chry/workspace/git/juice/build/juice/sandbox && /usr/bin/cmake --regenerate-during-build -S/home/chry/workspace/git/juice -B/home/chry/workspace/git/juice/build/juice
   DESC = Running CMake to regenerate build system...
   pool = console
   restat = 1
@@ -546,42 +597,42 @@ build stb: phony source/vendor/stb/libstb.a
 # =============================================================================
 
 #############################################
-# Folder: /home/chry/workspace/projects/juice/build/juice
+# Folder: /home/chry/workspace/git/juice/build/juice
 
 build all: phony source/all sandbox/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/chry/workspace/projects/juice/build/juice/sandbox
+# Folder: /home/chry/workspace/git/juice/build/juice/sandbox
 
 build sandbox/all: phony sandbox/sandbox
 
 # =============================================================================
 
 #############################################
-# Folder: /home/chry/workspace/projects/juice/build/juice/source
+# Folder: /home/chry/workspace/git/juice/build/juice/source
 
 build source/all: phony source/libjuice.a source/vendor/glad/all source/vendor/spdlog/all source/vendor/stb/all
 
 # =============================================================================
 
 #############################################
-# Folder: /home/chry/workspace/projects/juice/build/juice/source/vendor/glad
+# Folder: /home/chry/workspace/git/juice/build/juice/source/vendor/glad
 
 build source/vendor/glad/all: phony source/vendor/glad/libglad.a
 
 # =============================================================================
 
 #############################################
-# Folder: /home/chry/workspace/projects/juice/build/juice/source/vendor/spdlog
+# Folder: /home/chry/workspace/git/juice/build/juice/source/vendor/spdlog
 
 build source/vendor/spdlog/all: phony source/vendor/spdlog/libspdlog.a
 
 # =============================================================================
 
 #############################################
-# Folder: /home/chry/workspace/projects/juice/build/juice/source/vendor/stb
+# Folder: /home/chry/workspace/git/juice/build/juice/source/vendor/stb
 
 build source/vendor/stb/all: phony source/vendor/stb/libstb.a
 
@@ -592,14 +643,14 @@ build source/vendor/stb/all: phony source/vendor/stb/libstb.a
 #############################################
 # Re-run CMake if any of its inputs changed.
 
-build build.ninja: RERUN_CMAKE | /home/chry/workspace/projects/juice/CMakeLists.txt /home/chry/workspace/projects/juice/sandbox/CMakeLists.txt /home/chry/workspace/projects/juice/source/CMakeLists.txt /home/chry/workspace/projects/juice/source/vendor/glad/CMakeLists.txt /home/chry/workspace/projects/juice/source/vendor/spdlog/CMakeLists.txt /home/chry/workspace/projects/juice/source/vendor/spdlog/cmake/ide.cmake /home/chry/workspace/projects/juice/source/vendor/spdlog/cmake/utils.cmake /home/chry/workspace/projects/juice/source/vendor/stb/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake
+build build.ninja: RERUN_CMAKE | /home/chry/workspace/git/juice/CMakeLists.txt /home/chry/workspace/git/juice/sandbox/CMakeLists.txt /home/chry/workspace/git/juice/source/CMakeLists.txt /home/chry/workspace/git/juice/source/vendor/glad/CMakeLists.txt /home/chry/workspace/git/juice/source/vendor/spdlog/CMakeLists.txt /home/chry/workspace/git/juice/source/vendor/spdlog/cmake/ide.cmake /home/chry/workspace/git/juice/source/vendor/spdlog/cmake/utils.cmake /home/chry/workspace/git/juice/source/vendor/stb/CMakeLists.txt /usr/share/cmake/Modules/CMakeCCompiler.cmake.in /usr/share/cmake/Modules/CMakeCCompilerABI.c /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake/Modules/CMakeDetermineSystem.cmake /usr/share/cmake/Modules/CMakeFindBinUtils.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake/Modules/CMakeSystem.cmake.in /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CMakeTestCCompiler.cmake /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Internal/FeatureTesting.cmake /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake
   pool = console
 
 
 #############################################
 # A missing CMake input file is not an error.
 
-build /home/chry/workspace/projects/juice/CMakeLists.txt /home/chry/workspace/projects/juice/sandbox/CMakeLists.txt /home/chry/workspace/projects/juice/source/CMakeLists.txt /home/chry/workspace/projects/juice/source/vendor/glad/CMakeLists.txt /home/chry/workspace/projects/juice/source/vendor/spdlog/CMakeLists.txt /home/chry/workspace/projects/juice/source/vendor/spdlog/cmake/ide.cmake /home/chry/workspace/projects/juice/source/vendor/spdlog/cmake/utils.cmake /home/chry/workspace/projects/juice/source/vendor/stb/CMakeLists.txt /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake: phony
+build /home/chry/workspace/git/juice/CMakeLists.txt /home/chry/workspace/git/juice/sandbox/CMakeLists.txt /home/chry/workspace/git/juice/source/CMakeLists.txt /home/chry/workspace/git/juice/source/vendor/glad/CMakeLists.txt /home/chry/workspace/git/juice/source/vendor/spdlog/CMakeLists.txt /home/chry/workspace/git/juice/source/vendor/spdlog/cmake/ide.cmake /home/chry/workspace/git/juice/source/vendor/spdlog/cmake/utils.cmake /home/chry/workspace/git/juice/source/vendor/stb/CMakeLists.txt /usr/share/cmake/Modules/CMakeCCompiler.cmake.in /usr/share/cmake/Modules/CMakeCCompilerABI.c /usr/share/cmake/Modules/CMakeCInformation.cmake /usr/share/cmake/Modules/CMakeCXXCompiler.cmake.in /usr/share/cmake/Modules/CMakeCXXCompilerABI.cpp /usr/share/cmake/Modules/CMakeCXXInformation.cmake /usr/share/cmake/Modules/CMakeCommonLanguageInclude.cmake /usr/share/cmake/Modules/CMakeCompilerIdDetection.cmake /usr/share/cmake/Modules/CMakeDetermineCCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCXXCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompileFeatures.cmake /usr/share/cmake/Modules/CMakeDetermineCompiler.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerABI.cmake /usr/share/cmake/Modules/CMakeDetermineCompilerId.cmake /usr/share/cmake/Modules/CMakeDetermineSystem.cmake /usr/share/cmake/Modules/CMakeFindBinUtils.cmake /usr/share/cmake/Modules/CMakeGenericSystem.cmake /usr/share/cmake/Modules/CMakeInitializeConfigs.cmake /usr/share/cmake/Modules/CMakeLanguageInformation.cmake /usr/share/cmake/Modules/CMakeNinjaFindMake.cmake /usr/share/cmake/Modules/CMakeParseImplicitIncludeInfo.cmake /usr/share/cmake/Modules/CMakeParseImplicitLinkInfo.cmake /usr/share/cmake/Modules/CMakeParseLibraryArchitecture.cmake /usr/share/cmake/Modules/CMakeSystem.cmake.in /usr/share/cmake/Modules/CMakeSystemSpecificInformation.cmake /usr/share/cmake/Modules/CMakeSystemSpecificInitialize.cmake /usr/share/cmake/Modules/CMakeTestCCompiler.cmake /usr/share/cmake/Modules/CMakeTestCXXCompiler.cmake /usr/share/cmake/Modules/CMakeTestCompilerCommon.cmake /usr/share/cmake/Modules/CheckCSourceCompiles.cmake /usr/share/cmake/Modules/CheckIncludeFile.cmake /usr/share/cmake/Modules/CheckLibraryExists.cmake /usr/share/cmake/Modules/Compiler/ADSP-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMCC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/ARMClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/AppleClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Borland-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Bruce-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/CMakeCommonCompilerMacros.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Clang-DetermineCompilerInternal.cmake /usr/share/cmake/Modules/Compiler/Comeau-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Compaq-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Compaq-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Cray-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Embarcadero-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Fujitsu-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/FujitsuClang-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GHS-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-C.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/GNU-CXX.cmake /usr/share/cmake/Modules/Compiler/GNU-FindBinUtils.cmake /usr/share/cmake/Modules/Compiler/GNU.cmake /usr/share/cmake/Modules/Compiler/HP-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/HP-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IAR-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-C-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMCPP-CXX-DetermineVersionInternal.cmake /usr/share/cmake/Modules/Compiler/IBMClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IBMClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Intel-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/IntelLLVM-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/LCC-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/MSVC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVHPC-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/NVIDIA-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/OpenWatcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PGI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/PathScale-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SCO-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SDCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/SunPro-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TI-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Tasking-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/TinyCC-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/VisualAge-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/Watcom-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XL-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/XLClang-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-C-DetermineCompiler.cmake /usr/share/cmake/Modules/Compiler/zOS-CXX-DetermineCompiler.cmake /usr/share/cmake/Modules/FindPackageHandleStandardArgs.cmake /usr/share/cmake/Modules/FindPackageMessage.cmake /usr/share/cmake/Modules/FindThreads.cmake /usr/share/cmake/Modules/GNUInstallDirs.cmake /usr/share/cmake/Modules/Internal/CheckSourceCompiles.cmake /usr/share/cmake/Modules/Internal/FeatureTesting.cmake /usr/share/cmake/Modules/Platform/Linux-Determine-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-C.cmake /usr/share/cmake/Modules/Platform/Linux-GNU-CXX.cmake /usr/share/cmake/Modules/Platform/Linux-GNU.cmake /usr/share/cmake/Modules/Platform/Linux-Initialize.cmake /usr/share/cmake/Modules/Platform/Linux.cmake /usr/share/cmake/Modules/Platform/UnixPaths.cmake CMakeCache.txt CMakeFiles/3.27.1/CMakeCCompiler.cmake CMakeFiles/3.27.1/CMakeCXXCompiler.cmake CMakeFiles/3.27.1/CMakeSystem.cmake: phony
 
 
 #############################################

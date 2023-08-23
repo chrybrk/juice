@@ -1,83 +1,86 @@
-buildSystem=""
-buildType=$2
-project=""
+p0=""
+p1=""
+p2=""
+working_dir=""
+machine=""
 
-#########################################
-#				  Clean 				#
-#########################################
-function Clean()
-{
-	rm ./build/* -rf
-}
 
-#########################################
-#				Build lib				#
-#########################################
-function Lib()
-{
-	project="libjuice.a"
-	rm ./build/${buildSystem}/${project}
-	cmake ./source/ -B ./build/${buildSystem} -DCMAKE_BUILD_TYPE=${buildType} -G "Ninja"
-	ninja -C ./build/${buildSystem}
-}
+# user-profile start
 
-#########################################
-#			Build Playground			#
-#########################################
-function Playground()
-{
-	project="Playground"
-	rm ./build/${buildSystem}/${project}
-	cmake ./Playground/ -B ./build/${buildSystem} -DCMAKE_BUILD_TYPE=${buildType} -G "Ninja"
-	ninja -C ./build/${buildSystem}
+pkg_name="build/juice"
+lib_name="build/lib"
 
-	if [[ -f "./build/${buildSystem}/Playground" ]]; then
-			xfce4-terminal -T "${project}" -e "/usr/bin/cb_console_runner ./build/${buildSystem}/Playground" --show-borders --hide-menubar --hide-toolbar  --geometry=50x15+5+10&
-	fi
-}
+exec_path="${pkg_name}/sandbox"
+exec_name="sandbox"
 
-#########################################
-#				Build SQ				#
-#########################################
-function juice()
-{
-	project="sandbox"
-	rm ./build/${buildSystem}/sandbox/sandbox
-	cmake -B ./build/${buildSystem} -DCMAKE_BUILD_TYPE=${buildType} -G "Ninja"
-	ninja -C ./build/${buildSystem}
-}
+# user-profile end
 
-function Run()
-{
-	if [[ -f "./build/${buildSystem}/sandbox/sandbox" ]]; then
-			xfce4-terminal -T "${project}" -e "/usr/bin/cb_console_runner ./build/${buildSystem}/sandbox/sandbox" --show-borders --hide-menubar --hide-toolbar  --geometry=50x15+5+10&
-	fi
-}
-
-function perftool()
-{
-	Run
-	sleep 5
-	echo "Starting performance testing tools..."
-	perf record -o ./perf.data --call-graph dwarf --aio -z --sample-cpu --pid $(pidof Sandbox)
-	hotspot ./perf.data
-}
-
-if [[ $1 == "Clean" ]]; then
-	Clean
-elif [[ $1 == "lib" ]]; then
-	buildSystem="lib"
-	Lib
-	Run
-elif [[ $1 == "Playground" ]]; then
-	buildSystem="Playground"
-	Playground
-elif [[ $1 == "juice" ]]; then
-	buildSystem="juice"
-    juice
-	Run
-elif [[ $1 == "Perf" ]]; then
-	buildSystem="SQ"
-	SQ
-	perftool
+if [ "$(expr substr $(uname -s) 1 5)" == "Linux" ]; then
+    machine="linux"
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW32_NT" ]; then
+    machine="win_x86"
+elif [ "$(expr substr $(uname -s) 1 10)" == "MINGW64_NT" ]; then
+    machine="win_x64"
 fi
+
+err="ERR :: => run.sh (lib | exec) (cr | r) (Release | Debug)"
+
+if [ "$#" -eq 0 ]; then
+    echo $err
+    exit
+elif [ "$#" -eq 1 ]; then
+    p0=$1
+    p1="r"
+    p2="Debug"
+elif [ "$#" -eq 2 ]; then
+    p0=$1
+    p1=$2
+    p2="Debug"
+elif [ "$#" -eq 3 ]; then
+    p0=$1
+    p1=$2
+    p2=$3
+else
+    echo $err
+    exit
+fi
+
+if [[ $p2 != "Release" ]]; then
+    if [[ $p2 != "Debug" ]]; then
+        echo $err
+        exit
+    fi
+fi
+
+if [[ $1 == "lib" ]]; then
+    working_dir=$lib_name
+else
+    working_dir=$pkg_name
+fi
+
+function build()
+{
+    cmake -B ./${working_dir} -DCMAKE_BUILD_TYPE=${p2} -G "Ninja"
+    ninja -C ./${working_dir}
+}
+
+function clean()
+{
+    echo "[!] WARNING: cleaning build..."
+    rm ./${working_dir}/* -r
+}
+
+function run()
+{
+    if [ $machine == "linux" ]; then
+        exec ./${exec_path}/${exec_name}
+    else
+        exec ./${exec_path}/${exec_name}.exe
+    fi
+}
+
+if [[ $p1 == "cr" ]]; then
+    clean
+fi
+build
+run

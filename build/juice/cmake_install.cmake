@@ -1,4 +1,4 @@
-# Install script for directory: /home/chry/workspace/projects/juice
+# Install script for directory: /home/chry/workspace/git/juice
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -44,12 +44,12 @@ endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/chry/workspace/projects/juice/build/juice/source/cmake_install.cmake")
+  include("/home/chry/workspace/git/juice/build/juice/source/cmake_install.cmake")
 endif()
 
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for the subdirectory.
-  include("/home/chry/workspace/projects/juice/build/juice/sandbox/cmake_install.cmake")
+  include("/home/chry/workspace/git/juice/build/juice/sandbox/cmake_install.cmake")
 endif()
 
 if(CMAKE_INSTALL_COMPONENT)
@@ -60,5 +60,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "/home/chry/workspace/projects/juice/build/juice/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "/home/chry/workspace/git/juice/build/juice/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

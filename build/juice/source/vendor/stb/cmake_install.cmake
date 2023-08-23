@@ -1,4 +1,4 @@
-# Install script for directory: /home/chry/workspace/projects/juice/source/vendor/stb
+# Install script for directory: /home/chry/workspace/git/juice/source/vendor/stb
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
